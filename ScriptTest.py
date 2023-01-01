@@ -1,7 +1,7 @@
-from distributions import Gaussian
-from distributions import Binomial
+from distrib_ae import Gaussian
+from distrib_ae import Binomial
 
-import distributions as ds
+import distrib_ae as ds
 
 print(ds.__file__)
 
