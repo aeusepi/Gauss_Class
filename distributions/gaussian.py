@@ -224,7 +224,7 @@ class Gaussian(Distribution):
         out = (f'mean: {self.mean}, and st.dev {self.stdev}')
         
         return out
-
+"""
 # initialize two gaussian distributions
 gaussian_one = Gaussian(25, 3)
 gaussian_two = Gaussian(30, 2)
@@ -250,3 +250,4 @@ gaussian_three.plot_histogram_pdf()
 
 #print
 print(gaussian_one + gaussian_two)
+"""
