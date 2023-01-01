@@ -1,8 +1,15 @@
 from distributions import Gaussian
-import distributions
+from distributions import Binomial
 
-print(distributions.__file__)
+import distributions as ds
+
+print(ds.__file__)
+
 
 gauss = Gaussian(10,5)
+bino = Binomial(0.5,30)
+
 print(gauss)
+print(bino.calculate_mean())
+print(bino.calculate_stdev())
 
